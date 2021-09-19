@@ -1,0 +1,8 @@
+.image-card-container {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  justify-content: space-around;
+}

@@ -1,0 +1,27 @@
+.date-selection-wrapper {
+  background: white;
+  width: 50%;
+  margin: auto;
+  margin-top: 5%;
+  height: 250px;
+  padding-top: 2%;
+  box-shadow: 6px 6px 4px black;
+  display: flex;
+  justify-content: space-around;
+}
+.send-button {
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  flex: 0 0 auto;
+  height: 60px;
+}
+.button-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

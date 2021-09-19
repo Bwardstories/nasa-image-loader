@@ -1,0 +1,34 @@
+.card {
+  flex: 0 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 550px;
+  margin-bottom: 2%;
+  box-shadow: 15px 15px 2px black;
+}
+.card > * {
+  background: white;
+}
+.space-img {
+  width: 500px;
+  height: 300px;
+  margin-top: 5%;
+  border: 5px solid gold;
+}
+.title {
+  padding-top: 2%;
+}
+.card > .explanation {
+  padding: 5%;
+}
+.like-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+.like-button {
+  width: 80px;
+  border-radius: 10px;
+}
