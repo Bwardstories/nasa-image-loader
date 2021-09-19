@@ -3,7 +3,7 @@ import "./ImageCard.css";
 
 const ImageCard = props => {
   const { hdurl, date, explanation, title, thumbnail_url, media_type } = props;
-
+  //  sets like status for each image
   const [liked, setLiked] = useState(false);
   return (
     <div className="card">

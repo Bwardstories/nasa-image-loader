@@ -1,18 +1,24 @@
+/* styling for main container */
 .date-selection-wrapper {
   background: white;
   width: 50%;
-  margin: auto;
-  margin-top: 5%;
   height: 250px;
   padding-top: 2%;
   box-shadow: 6px 6px 4px black;
   display: flex;
   justify-content: space-around;
 }
+/* center aligns all children of main container */
+.date-selection-wrapper > * {
+  text-align: center;
+}
 .send-button {
-  border: none;
+  background: lightblue;
+  border-radius: 20px;
   color: black;
+  border: none;
   padding: 15px 32px;
+  margin-top: 10%;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -24,4 +30,5 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-height: 100%;
 }

@@ -6,3 +6,63 @@
   margin-top: 5%;
   justify-content: space-around;
 }
+.intro-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 300px;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+}
+.open-button {
+  margin-top: 5%;
+  background-image: url("../assets/images/starbackground.jpg");
+  background-size: cover;
+  color: orange;
+  border-radius: 20px;
+  border: 2px solid white;
+  width: 30%;
+  height: 20%;
+  font-size: 1.5rem;
+}
+.tooltips {
+  position: relative;
+  margin-top: 5%;
+  cursor: pointer;
+  width: 20%;
+  text-align: center;
+}
+.tooltips .tooltiptext {
+  visibility: hidden;
+  width: 400px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: -30%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltips .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 20px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltips:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}

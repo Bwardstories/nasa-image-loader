@@ -2,6 +2,7 @@
   flex: 0 1 auto;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   width: 550px;
   margin-bottom: 2%;
