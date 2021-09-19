@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/nasa-image-loader/static/css/main.68ec74b6.chunk.css",
+    "main.js": "/nasa-image-loader/static/js/main.f35a97c4.chunk.js",
+    "main.js.map": "/nasa-image-loader/static/js/main.f35a97c4.chunk.js.map",
+    "runtime-main.js": "/nasa-image-loader/static/js/runtime-main.655f36e8.js",
+    "runtime-main.js.map": "/nasa-image-loader/static/js/runtime-main.655f36e8.js.map",
+    "static/css/2.c490997a.chunk.css": "/nasa-image-loader/static/css/2.c490997a.chunk.css",
+    "static/js/2.5102d1fd.chunk.js": "/nasa-image-loader/static/js/2.5102d1fd.chunk.js",
+    "static/js/2.5102d1fd.chunk.js.map": "/nasa-image-loader/static/js/2.5102d1fd.chunk.js.map",
+    "index.html": "/nasa-image-loader/index.html",
+    "static/css/2.c490997a.chunk.css.map": "/nasa-image-loader/static/css/2.c490997a.chunk.css.map",
+    "static/css/main.68ec74b6.chunk.css.map": "/nasa-image-loader/static/css/main.68ec74b6.chunk.css.map",
+    "static/js/2.5102d1fd.chunk.js.LICENSE.txt": "/nasa-image-loader/static/js/2.5102d1fd.chunk.js.LICENSE.txt",
+    "static/media/loading.c7d9f081.gif": "/nasa-image-loader/static/media/loading.c7d9f081.gif",
+    "static/media/index.css": "/nasa-image-loader/static/media/starbackground.f4899020.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.655f36e8.js",
+    "static/css/2.c490997a.chunk.css",
+    "static/js/2.5102d1fd.chunk.js",
+    "static/css/main.68ec74b6.chunk.css",
+    "static/js/main.f35a97c4.chunk.js"
+  ]
+}
